@@ -10,10 +10,16 @@ revenue_growth = round((yearly_revenue_2024/yearly_revenue_2023), 2)
 price_growth = round((NVDA_price_20250101/NVDA_price_20240101), 2)
 print(revenue_growth, price_growth)
 #To-Do List:
-# 1. Explain why share price growth is faster than revenue growth
-# 2. Calculate what will be the expected price for NVDA shares on 01/01/26
-#Answers:
-# 1. The share price growth of NVDA is faster than the revenue growth is because a lot of investors expect NVDA to get even bigger so they are willing to pay a very hgih price for a share and so the share price sky rockets.
-# 2:
-NVDA_price_20260101 = round(NVDA_price_20250101 * price_growth, 2)
-print(NVDA_price_20260101)
+#Explain why share price growth is faster than revenue growth
+#Calculate what will be the expected price for NVDA shares on 01/01/26
+
+print(False or True)
+print(not False and True)
+
+
+# Session #2: Libraries for Financial Analysis
+import math 
+import pandas as pd 
+import numpy as np
+
+df = pd.read_excel("data/HistoricalData_1759454414777.csv")
