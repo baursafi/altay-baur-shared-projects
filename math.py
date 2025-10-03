@@ -20,3 +20,8 @@ print(revenue_growth, price_growth)
 # 2:
 NVDA_price_20260101 = round(NVDA_price_20250101 * price_growth, 2)
 print(NVDA_price_20260101)
+
+price_growth_2 = round(NVDA_price_20250925/NVDA_price_20250101, 2)
+
+NVDA_price_20260101 = round(NVDA_price_20250101 * price_growth_2 * 4/3, 2)
+print(NVDA_price_20260101)
